@@ -1,0 +1,205 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #1b1b1b;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  background-color: #A561E8;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-esquerda {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 160px;
+  height: 60px;
+}
+
+.menu-botoes {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-botoes a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 8px 12px;
+}
+
+.perfil-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.icone-pesquisa {
+  width: 40px;
+  height: 30px;
+}
+
+.perfil img {
+  width: 45px;
+  height: 35px;
+}
+
+/* Main */
+main {
+  margin-top: 80px; 
+  padding: 20px;
+  color: white;
+}
+
+/* Bem-vindos */
+#bem-vindos { 
+  height: 400px; 
+  padding: 50px; 
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#bem-vindos h1 {
+  padding-top: 300px;
+  margin-bottom: 16px;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+#bem-vindos p {
+  max-width: 600px;
+  font-size: 20px;
+  color: #dddddd;
+}
+
+.container .btn {
+  background-color: #4c1184;
+  color: white;
+  font-size: 16px;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-top: 40px;
+}
+
+/* Problemas */
+.titulo {
+  padding-top: 200px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #a561e8;
+  text-align: center;
+}
+
+.faixa {
+  background-color: #b889e6;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 90px; 
+  align-items: center;
+}
+
+.item {
+  width: 180px;
+  color: #000;
+  text-align: center;
+}
+
+.item img {
+  width: 180px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+
+.item p {
+  font-size: 18px;
+  color: #000;
+}
+
+/* Soluções */
+.secao-solucoes {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.titulo2 {
+  padding-top: 100px;
+  font-size: 50px;
+  color: #a561e8;
+  margin-bottom: 16px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card {
+  background-color: #b889e6;
+  padding: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.card img {
+  width: 150px;
+  height: 130px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.titulo-final {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #a561e8;
+  text-align: center;
+}
