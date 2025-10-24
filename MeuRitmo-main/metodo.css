@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #1B1B1B;
+}
+
+.container {
+    padding: 50px 5%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container h2 {
+    font-size: 48px;
+    color: #631BA8;
+}
+
+.descricao {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #9766BE;
+    border-radius: 40px;
+    padding: 25px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 320px;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.card h3 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 13px;
+    color: #000;
+}
+
+/* quebra de linha entre os cards */
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.pe {
+    margin: 0px;
+    background-color: #006494;
+    width: 100%;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.pe p {
+    color: #ffffff;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.oi {
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    nav {
+      background-color: #A561E8;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .nav-esquerda {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .logo img {
+      width: 160px;
+      height: 60px;
+    }
+
+    .menu-botoes {
+      display: flex;
+      gap: 20px;
+        }
+
+    .menu-botoes a {
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      padding: 8px 12px;
+    }
+
+    .perfil-container {
+      display: flex;
+      align-items: center;
+      gap: 20px; 
+    }
+
+    .icone-pesquisa {
+      width: 40px;
+      height: 30px;
+    }
+
+    .perfil img {
+      width: 45px;
+      height: 35px;
+    }
+
+    main {
+      margin-top: 80px; 
+      padding: 20px;
+      color: white;
+    }
